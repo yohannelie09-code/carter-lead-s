@@ -1,0 +1,1248 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="CARTER LEAD'S - Official Streetwear Store">
+
+    <title>CARTER LEAD'S | Official Store</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+     HEADER
+===================================================== -->
+
+    <header class="header">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+
+                <img src="images/logo.png" alt="CARTER LEAD'S">
+
+            </a>
+
+
+            <nav class="navigation">
+
+                <a href="#collection">
+                    COLLECTION
+                </a>
+
+                <a href="#tops">
+                    TOPS
+                </a>
+
+                <a href="#brand">
+                    LA MARQUE
+                </a>
+
+                <a href="#contact">
+                    CONTACT
+                </a>
+
+            </nav>
+
+
+            <button class="bag-button" onclick="openCart()">
+
+                BAG
+
+                <span id="cart-count">
+                    0
+                </span>
+
+            </button>
+
+        </div>
+
+    </header>
+
+
+
+    <!-- =====================================================
+     HERO
+===================================================== -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-bg">
+            CARTER
+        </div>
+
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                CARTER LEAD'S / OFFICIAL STORE
+            </p>
+
+
+            <h1>
+
+                LEAD
+
+                <span>
+                    YOUR
+                </span>
+
+                WORLD.
+
+            </h1>
+
+
+            <p class="hero-description">
+
+                Là où les idées deviennent légendaires.
+
+            </p>
+
+
+            <a href="#collection" class="main-button">
+
+                DÉCOUVRIR LA COLLECTION
+
+            </a>
+
+        </div>
+
+
+        <div class="scroll-text">
+
+            SCROLL ↓
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+     MANIFESTO
+===================================================== -->
+
+    <section class="manifesto">
+
+        <div class="section-number">
+            01
+        </div>
+
+
+        <div class="manifesto-content">
+
+            <p class="small-title">
+                THE CARTER LEAD'S MINDSET
+            </p>
+
+
+            <h2>
+
+                WE DON'T
+
+                <br>
+
+                FOLLOW.
+
+                <br>
+
+                <span>
+                    WE LEAD.
+                </span>
+
+            </h2>
+
+
+            <p>
+
+                CARTER LEAD'S est une marque streetwear
+                construite autour de la créativité, de
+                l'identité et de l'ambition.
+
+                <br><br>
+
+                Chaque pièce représente une vision :
+                avancer, créer et construire son propre chemin.
+
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+     COLLECTION
+===================================================== -->
+
+    <section id="collection" class="shop-section white-section">
+
+
+        <div class="section-header">
+
+            <div>
+
+                <p class="small-title">
+                    02 / COLLECTION
+                </p>
+
+
+                <h2>
+                    THE
+                    <br>
+                    ESSENTIALS
+                </h2>
+
+            </div>
+
+
+            <p>
+
+                Des pièces pensées pour ceux qui
+                construisent leur propre identité.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="products-grid">
+
+
+
+            <!-- =================================================
+             ONLY CARTER
+        ================================================== -->
+
+            <article class="product" data-name="Only Carter Lead's" data-price="8000" data-type="T-shirt">
+
+                <div class="product-image">
+
+                    <span class="product-number">
+                        01
+                    </span>
+
+
+                    <img src="images/only-noir.png" alt="Only Carter Lead's" class="product-photo">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <div class="product-heading">
+
+                        <div>
+
+                            <small>
+                                T-SHIRT / 001
+                            </small>
+
+                            <h3>
+                                ONLY CARTER LEAD'S
+                            </h3>
+
+                        </div>
+
+
+                        <strong>
+                            8 000 FCFA
+                        </strong>
+
+                    </div>
+
+
+
+                    <!-- COULEURS -->
+
+                    <div class="option-row">
+
+                        <span>
+                            COLOR
+                        </span>
+
+
+                        <div class="colors">
+
+                            <button class="color black selected" data-color="Noir" data-image="images/only-noir.png"
+                                title="Noir"></button>
+
+
+                            <button class="color white" data-color="Blanc" data-image="images/only-blanc.png"
+                                title="Blanc"></button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- TAILLES -->
+
+                    <div class="option-row">
+
+                        <span>
+                            SIZE
+                        </span>
+
+
+                        <div class="sizes">
+
+                            <button class="size selected">
+                                S
+                            </button>
+
+                            <button class="size">
+                                M
+                            </button>
+
+                            <button class="size">
+                                L
+                            </button>
+
+                            <button class="size">
+                                XL
+                            </button>
+
+                            <button class="size">
+                                XXL
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <button class="add-button" onclick="addProduct(this)">
+
+                        AJOUTER AU PANIER
+
+                        <span>
+                            +
+                        </span>
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+             THE SPECIAL
+        ================================================== -->
+
+            <article class="product" data-name="The Special" data-price="8000" data-type="T-shirt">
+
+                <div class="product-image">
+
+                    <span class="product-number">
+                        02
+                    </span>
+
+
+                    <img src="images/special-kaki.png" alt="The Special" class="product-photo">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <div class="product-heading">
+
+                        <div>
+
+                            <small>
+                                T-SHIRT / 002
+                            </small>
+
+                            <h3>
+                                THE SPECIAL
+                            </h3>
+
+                        </div>
+
+
+                        <strong>
+                            8 000 FCFA
+                        </strong>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            COLOR
+                        </span>
+
+
+                        <div class="colors">
+
+                            <button class="color khaki selected" data-color="Kaki" data-image="images/special-kaki.png"
+                                title="Kaki"></button>
+
+
+                            <button class="color white" data-color="Blanc" data-image="images/special-blanc.png"
+                                title="Blanc"></button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            SIZE
+                        </span>
+
+
+                        <div class="sizes">
+
+                            <button class="size selected">
+                                S
+                            </button>
+
+                            <button class="size">
+                                M
+                            </button>
+
+                            <button class="size">
+                                L
+                            </button>
+
+                            <button class="size">
+                                XL
+                            </button>
+
+                            <button class="size">
+                                XXL
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <button class="add-button" onclick="addProduct(this)">
+
+                        AJOUTER AU PANIER
+
+                        <span>+</span>
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+             VISION
+        ================================================== -->
+
+            <article class="product" data-name="Vision" data-price="8000" data-type="T-shirt">
+
+                <div class="product-image">
+
+                    <span class="product-number">
+                        03
+                    </span>
+
+
+                    <img src="images/vision-noir.png" alt="Vision" class="product-photo">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <div class="product-heading">
+
+                        <div>
+
+                            <small>
+                                T-SHIRT / 003
+                            </small>
+
+                            <h3>
+                                VISION
+                            </h3>
+
+                        </div>
+
+
+                        <strong>
+                            8 000 FCFA
+                        </strong>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            COLOR
+                        </span>
+
+
+                        <div class="colors">
+
+                            <button class="color black selected" data-color="Noir" data-image="images/vision-noir.png"
+                                title="Noir"></button>
+
+
+                            <button class="color white" data-color="Blanc" data-image="images/vision-blanc.png"
+                                title="Blanc"></button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            SIZE
+                        </span>
+
+
+                        <div class="sizes">
+
+                            <button class="size selected">
+                                S
+                            </button>
+
+                            <button class="size">
+                                M
+                            </button>
+
+                            <button class="size">
+                                L
+                            </button>
+
+                            <button class="size">
+                                XL
+                            </button>
+
+                            <button class="size">
+                                XXL
+                            </button>
+
+                        </div>
+
+                    </div>
+
+
+                    <button class="add-button" onclick="addProduct(this)">
+
+                        AJOUTER AU PANIER
+
+                        <span>+</span>
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- =================================================
+             THERE IS NO COMPETITION
+        ================================================== -->
+
+            <article class="product" data-name="There Is No Competition" data-price="8000" data-type="T-shirt">
+
+                <div class="product-image">
+
+                    <span class="product-number">
+                        04
+                    </span>
+
+
+                    <img src="images/competition-noir.png" alt="There Is No Competition" class="product-photo">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <div class="product-heading">
+
+                        <div>
+
+                            <small>
+                                T-SHIRT / 004
+                            </small>
+
+                            <h3>
+                                THERE IS NO COMPETITION
+                            </h3>
+
+                        </div>
+
+
+                        <strong>
+                            8 000 FCFA
+                        </strong>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            COLOR
+                        </span>
+
+
+                        <div class="colors">
+
+                            <button class="color black selected" data-color="Noir"
+                                data-image="images/competition-noir.png" title="Noir"></button>
+
+
+                            <button class="color white" data-color="Blanc" data-image="images/competition-blanc.png"
+                                title="Blanc"></button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            SIZE
+                        </span>
+
+
+                        <div class="sizes">
+
+                            <button class="size selected">S</button>
+                            <button class="size">M</button>
+                            <button class="size">L</button>
+                            <button class="size">XL</button>
+                            <button class="size">XXL</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <button class="add-button" onclick="addProduct(this)">
+
+                        AJOUTER AU PANIER
+
+                        <span>+</span>
+
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+     TOPS
+===================================================== -->
+
+    <section id="tops" class="shop-section dark-section">
+
+
+        <div class="section-header">
+
+            <div>
+
+                <p class="small-title">
+                    03 / TOPS
+                </p>
+
+
+                <h2>
+                    THE
+                    <br>
+                    TOPS
+                </h2>
+
+            </div>
+
+
+            <p>
+
+                Une sélection pensée pour compléter
+                l'univers CARTER LEAD'S.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="products-grid">
+
+
+
+            <!-- TOP 1 -->
+
+            <article class="product" data-name="Royal Edition" data-price="5000" data-type="Top">
+
+                <div class="product-image">
+
+                    <span class="product-number">
+                        01
+                    </span>
+
+
+                    <img src="images/top1-noir.png" alt="Royal Edition" class="product-photo">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <div class="product-heading">
+
+                        <div>
+
+                            <small>
+                                TOP / 001
+                            </small>
+
+                            <h3>
+                                ROYAL EDITION
+                            </h3>
+
+                        </div>
+
+
+                        <strong>
+                            5 000 FCFA
+                        </strong>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            COLOR
+                        </span>
+
+
+                        <div class="colors">
+
+                            <button class="color black selected" data-color="Noir"
+                                data-image="images/top1-noir.png"></button>
+
+                            <button class="color purple" data-color="Violet"
+                                data-image="images/top1-violet.png"></button>
+
+                            <button class="color white" data-color="Blanc" data-image="images/top1-blanc.png"></button>
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            SIZE
+                        </span>
+
+
+                        <div class="sizes">
+
+                            <button class="size selected">S</button>
+                            <button class="size">M</button>
+                            <button class="size">L</button>
+                            <button class="size">XL</button>
+                            <button class="size">XXL</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <button class="add-button" onclick="addProduct(this)">
+
+                        AJOUTER AU PANIER
+
+                        <span>+</span>
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- TOP 2 -->
+
+            <article class="product" data-name="Future Vision" data-price="5000" data-type="Top">
+
+                <div class="product-image">
+
+                    <span class="product-number">
+                        02
+                    </span>
+
+
+                    <img src="images/top2-noir.png" alt="Future Vision" class="product-photo">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <div class="product-heading">
+
+                        <div>
+
+                            <small>
+                                TOP / 002
+                            </small>
+
+                            <h3>
+                                FUTURE VISION
+                            </h3>
+
+                        </div>
+
+
+                        <strong>
+                            5 000 FCFA
+                        </strong>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            COLOR
+                        </span>
+
+
+                        <div class="colors">
+
+                            <button class="color black selected" data-color="Noir"
+                                data-image="images/top2-noir.png"></button>
+
+                            <button class="color purple" data-color="Violet"
+                                data-image="images/top2-violet.png"></button>
+
+                            <button class="color white" data-color="Blanc" data-image="images/top2-blanc.png"></button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            SIZE
+                        </span>
+
+
+                        <div class="sizes">
+
+                            <button class="size selected">S</button>
+                            <button class="size">M</button>
+                            <button class="size">L</button>
+                            <button class="size">XL</button>
+                            <button class="size">XXL</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <button class="add-button" onclick="addProduct(this)">
+
+                        AJOUTER AU PANIER
+
+                        <span>+</span>
+
+                    </button>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- TOP 3 -->
+
+            <article class="product" data-name="Japan Leader" data-price="5000" data-type="Top">
+
+                <div class="product-image">
+
+                    <span class="product-number">
+                        03
+                    </span>
+
+
+                    <img src="images/top3-noir.png" alt="Japan Leader" class="product-photo">
+
+                </div>
+
+
+                <div class="product-info">
+
+                    <div class="product-heading">
+
+                        <div>
+
+                            <small>
+                                TOP / 003
+                            </small>
+
+                            <h3>
+                                JAPAN LEADER
+                            </h3>
+
+                        </div>
+
+
+                        <strong>
+                            5 000 FCFA
+                        </strong>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            COLOR
+                        </span>
+
+
+                        <div class="colors">
+
+                            <button class="color black selected" data-color="Noir"
+                                data-image="images/top3-noir.png"></button>
+
+                            <button class="color purple" data-color="Violet"
+                                data-image="images/top3-violet.png"></button>
+
+                            <button class="color white" data-color="Blanc" data-image="images/top3-blanc.png"></button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="option-row">
+
+                        <span>
+                            SIZE
+                        </span>
+
+
+                        <div class="sizes">
+
+                            <button class="size selected">S</button>
+                            <button class="size">M</button>
+                            <button class="size">L</button>
+                            <button class="size">XL</button>
+                            <button class="size">XXL</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <button class="add-button" onclick="addProduct(this)">
+
+                        AJOUTER AU PANIER
+
+                        <span>+</span>
+
+                    </button>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+     ABOUT
+===================================================== -->
+
+    <section id="brand" class="brand-section">
+
+        <div class="section-number">
+            04
+        </div>
+
+
+        <div>
+
+            <p class="small-title">
+                ABOUT CARTER LEAD'S
+            </p>
+
+
+            <h2>
+
+                LÀ OÙ LES IDÉES
+
+                <br>
+
+                DEVIENNENT
+
+                <br>
+
+                <span>
+                    LÉGENDAIRES.
+                </span>
+
+            </h2>
+
+
+            <div class="brand-text">
+
+                <p>
+
+                    CARTER LEAD'S est une marque de vêtements
+                    streetwear construite autour de la créativité,
+                    de l'ambition et de l'identité.
+
+                </p>
+
+
+                <p>
+
+                    Pour nous, un vêtement n'est pas simplement
+                    une pièce que l'on porte. Il représente une
+                    attitude, une vision et une manière de voir
+                    le monde.
+
+                </p>
+
+
+                <p>
+
+                    Notre univers mélange esthétique moderne,
+                    minimalisme et culture streetwear afin de
+                    créer des pièces fortes, propres et
+                    reconnaissables.
+
+                </p>
+
+
+                <strong>
+
+                    « Ne pas suivre les tendances.
+                    Créer sa propre direction. »
+
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+     CONTACT
+===================================================== -->
+
+    <section id="contact" class="contact-section">
+
+        <p class="small-title">
+            05 / CONTACT
+        </p>
+
+
+        <h2>
+
+            READY
+
+            <br>
+
+            TO LEAD?
+
+        </h2>
+
+
+        <p>
+
+            Passe ta commande directement sur WhatsApp.
+
+        </p>
+
+
+        <div class="contact-grid">
+
+
+            <a href="https://wa.me/2250585114967" target="_blank">
+
+                <small>
+                    CÔTE D'IVOIRE
+                </small>
+
+                <strong>
+                    +225 05 85 11 49 67
+                </strong>
+
+                <span>
+                    WHATSAPP →
+                </span>
+
+            </a>
+
+
+            <a href="https://wa.me/33785617330" target="_blank">
+
+                <small>
+                    HORS CÔTE D'IVOIRE
+                </small>
+
+                <strong>
+                    +33 7 85 61 73 30
+                </strong>
+
+                <span>
+                    WHATSAPP →
+                </span>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+     PANIER
+===================================================== -->
+
+    <div id="cart-overlay" class="cart-overlay">
+
+        <aside class="cart">
+
+            <button class="close-cart" onclick="closeCart()">
+                ×
+            </button>
+
+
+            <p class="small-title">
+                CARTER LEAD'S
+            </p>
+
+
+            <h2>
+                YOUR BAG
+            </h2>
+
+
+            <div id="cart-items">
+
+                <p class="empty-cart">
+                    Votre panier est vide.
+                </p>
+
+            </div>
+
+
+            <div class="cart-bottom">
+
+                <div class="total">
+
+                    <span>
+                        TOTAL
+                    </span>
+
+                    <strong id="cart-total">
+                        0 FCFA
+                    </strong>
+
+                </div>
+
+
+                <p>
+
+                    Livraison et modalités de paiement
+                    à confirmer sur WhatsApp.
+
+                </p>
+
+
+                <button class="checkout" onclick="checkoutWhatsApp()">
+
+                    COMMANDER SUR WHATSAPP →
+
+                </button>
+
+            </div>
+
+        </aside>
+
+    </div>
+
+
+
+    <!-- =====================================================
+     FOOTER
+===================================================== -->
+
+    <footer>
+
+        <strong>
+            CARTER LEAD'S
+        </strong>
+
+        <span>
+            LEAD YOUR WORLD.
+        </span>
+
+        <span>
+            © 2026
+        </span>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
